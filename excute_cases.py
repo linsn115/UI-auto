@@ -26,7 +26,7 @@ else:
             "text": "![screenshot](https://kh-3-dev.oss-cn-hangzhou.aliyuncs.com/000000/upload/20201224/68cf50d2336c84fbcbbf566a14707385.png)游客仅查看报告，登录后即享更多操作，测试账号:ceshi，密码：123456，有问题钉钉联系测试人员",
             "btnOrientation": "0",
             "singleTitle": "阅读报告",
-            "singleURL": "http://192.168.2.15:8080/job/test_project_xcc/HTML_20Report/"
+            "singleURL": "http://192.168.2.55:8080/job/UI-auto/HTML_20Report/"
         },
         "msgtype": "actionCard"
     }

@@ -1,0 +1,24 @@
+- id: test_business_registration.1
+  detail: 商家报名主播（已有商品）
+  screenshot: business_registration_success
+  login_data:
+    # 商家账号
+    business_phone: "17688729728"
+    business_password: "123456"
+    # 主播账号
+    anchor_name: "恩克"
+    anchor_phone: "13296733560"
+    anchor_password: "123456"
+  product_data:
+    # 商品必填项都已经填好
+    product_name: "【赵露思代言】参半益生菌漱口水女口腔清洁持久清新口气500ml*2"
+    first_trial: "通过"   # 初审意见
+    recheck: "通过"       # 复审意见
+    remake: "产品不符合主播的风格"  # 意见的备注
+    title: "这是一个自动化测试活动" # 活动标题
+    plan_date: "2021-08-31" # 活动计划日期
+    investment_start_time: "2021-08-02" # 活动计划开始日期
+    investment_end_time: "2021-08-30" # 活动计划结束日期
+    product_number: "10" # 计划商品数
+  check:
+    - 点我，直联报名找主播

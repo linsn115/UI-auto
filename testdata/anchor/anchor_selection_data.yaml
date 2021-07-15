@@ -1,0 +1,8 @@
+-
+  id: test_biaoti
+  detail : 测试用例描述
+  screenshot : 截图名称
+  data:
+    key: "value"
+  check :
+     - 点我，直联报名找主播
